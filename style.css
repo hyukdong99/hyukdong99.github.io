@@ -1,0 +1,88 @@
+* {
+  font-family: Nanum Gothic;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+#todo {
+  font-size: 25px;
+}
+
+#todo-list {
+  list-style: none;
+  font-weight: 800;
+  color: black;
+}
+#todo-list {
+  display: flex;
+}
+#todo-list li {
+  margin-right: 20px;
+}
+#todo-list li button {
+  margin: 10px;
+}
+#todo-form {
+  text-align: center;
+  color: black;
+}
+
+#clock {
+  font-size: 150px;
+  text-align: center;
+  color: black;
+}
+.hidden {
+  display: none;
+}
+#head {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  font-size: 25px;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  color: black;
+}
+#login {
+  font-size: 25px;
+  padding: 6px 8px;
+}
+#date1 {
+  text-align: right;
+  margin-right: 40px;
+  color: black;
+  font-size: 30px;
+}
+
+#weather {
+  text-align: right;
+  margin-right: 40px;
+  font-size: 25px;
+  font-weight: 800;
+}
+#login-form {
+  text-align: center;
+  color: black;
+}
+#greeting,
+#greeting2 {
+  text-align: center;
+  color: black;
+  font-family: 800;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}
